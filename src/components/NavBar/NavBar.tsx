@@ -1,0 +1,42 @@
+import React from 'react';
+import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+
+const NavBar = () => {
+    return (
+        <Navbar collapseOnSelect bg="dark" expand="md" fixed="top" variant="dark">
+                <Container>
+
+                <IndexLinkContainer to="/">
+                    <Navbar.Brand>jasonly.dev</Navbar.Brand>
+                </IndexLinkContainer>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                            <LinkContainer to="/experience">
+                                    <Nav.Link>Experience</Nav.Link>
+                            </LinkContainer>
+                
+                            <LinkContainer to="/projects">
+                                    <Nav.Link>Projects</Nav.Link>
+                            </LinkContainer>
+                
+                            <LinkContainer to="/education">
+                                    <Nav.Link>Education</Nav.Link>
+                            </LinkContainer>
+
+                            <LinkContainer to="/contact">
+                                    <Nav.Link>Contact</Nav.Link>
+                            </LinkContainer>
+                    </Nav>
+                </Navbar.Collapse>
+                </Container>
+
+        </Navbar>
+
+    );
+}
+
+export default NavBar;
