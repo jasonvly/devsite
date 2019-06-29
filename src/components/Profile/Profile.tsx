@@ -11,7 +11,7 @@ const Profile = () => {
                 <Card.Body>
                     <Card.Title className="profile-name"><h4>Jason Ly</h4></Card.Title>
                     <Card.Text>
-                        Recent Computer Science and Finance graduate and aspiring web developer in Sydney, Australia.
+                        Recent UNSW Computer Science and Finance graduate and aspiring web developer in Sydney.
                     </Card.Text>
                     <hr/>
                     <ul>

@@ -10,12 +10,12 @@ class App extends React.Component<{}, {}> {
 
     render() {
         return (
-            <div>
+            <>
                 <BrowserRouter>
                     <NavBar/>
                     <Routes/>
                 </BrowserRouter>
-            </div>
+            </>
         )
     }
 

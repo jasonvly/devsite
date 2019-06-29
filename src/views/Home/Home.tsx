@@ -6,7 +6,7 @@ import { Col, Row } from 'react-bootstrap';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Row>
                 <Col sm={4} className="mb-4">
                     <Profile/>
@@ -15,7 +15,7 @@ const Home = () => {
                     <AboutMe/>
                 </Col>
             </Row>
-        </div>
+        </>
     )
 }
 
