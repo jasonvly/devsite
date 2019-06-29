@@ -1,29 +1,22 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Profile } from "../../components/Profile";
+import { AboutMe } from "../../components/AboutMe";
+
+import { Col, Row } from 'react-bootstrap';
 
 const Home = () => {
-
-    
     return (
         <div>
-            <Card>
-                <Card.Body>
-
-                    <Row>
-                        <Col md="auto">
-                            Hello
-                        </Col>
-                        <Col>
-                            It's me
-                        </Col>
-                    </Row>
-
-                </Card.Body>
-                
-            </Card>
+            <Row>
+                <Col sm={4} className="mb-4">
+                    <Profile/>
+                </Col>
+                <Col sm={8}>
+                    <AboutMe/>
+                </Col>
+            </Row>
         </div>
     )
-
 }
 
 export default Home;

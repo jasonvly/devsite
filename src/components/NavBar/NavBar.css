@@ -1,0 +1,11 @@
+.navbar-brand {
+    font-family: 'Courier New', Courier, monospace, serif;
+  }
+  
+  .navbar-nav {
+    font-family: 'Courier New', Courier, monospace, serif;
+  }
+
+.navbar {
+  background-color: #3b413c;
+}

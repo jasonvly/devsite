@@ -1,4 +1,5 @@
 import React from 'react';
+import './NavBar.css';
 import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -6,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 const NavBar = () => {
     return (
-        <Navbar collapseOnSelect bg="dark" expand="md" fixed="top" variant="dark">
+        <Navbar collapseOnSelect expand="md" fixed="top" variant="dark">
                 <Container>
 
                 <IndexLinkContainer to="/">
