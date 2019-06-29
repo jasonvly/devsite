@@ -4,9 +4,9 @@ import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import '../../documents/jason-resume.pdf';
+// import '../../documents/jason-resume.pdf';
 
-const fileLocation = '../../documents/jason-resume.pdf';
+// const fileLocation = '../../documents/jason-resume.pdf';
 
 const NavBar = () => {
     return (
@@ -28,7 +28,7 @@ const NavBar = () => {
                         </LinkContainer>
 
                         <Nav.Item>
-                                <Nav.Link href={fileLocation} download target="_blank">Resume</Nav.Link>
+                                <Nav.Link href="" download target="_blank">Resume</Nav.Link>
                         </Nav.Item>
 
                     </Nav>
