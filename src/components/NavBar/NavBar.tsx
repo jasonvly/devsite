@@ -18,7 +18,12 @@ const NavBar = () => {
                 </IndexLinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
+                    <Nav className="ml-auto" defaultActiveKey="/about">
+
+                        <LinkContainer to="/about">
+                                <Nav.Link>About</Nav.Link>
+                        </LinkContainer>
+
                         <LinkContainer to="/experience">
                                 <Nav.Link>Experience</Nav.Link>
                         </LinkContainer>
