@@ -6,21 +6,28 @@ const Contact = () => {
         <>
         <Card>
             <Card.Body>
+                <Card.Title>Send me a message</Card.Title>
                 <Form action="https://formspree.io/jasonyx.ly@gmail.com" method="POST">
-                    <Form.Group controlId="formBasicEmail">
+                    
+                    {/* Email field */}
+                    <Form.Group controlId="formEmail">
                         <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control type="email" placeholder="Enter email" name="email" />
                         <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
+                            Don't worry, I have no interest in sharing your email with anyone else.
                         </Form.Text>
-
-                    </Form.Group>                        
-                    <Form.Group controlId="formBasicPassword">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
-                    <Form.Group controlId="formBasicChecbox">
-                        <Form.Check type="checkbox" label="Check me out" />
+
+                    {/* Name field */}
+                    <Form.Group controlId="formName">
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control type="text" placeholder="Enter name" name="name"/>
+                    </Form.Group>
+
+                    {/* Message field */}
+                    <Form.Group controlId="formMessage">
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control as="textarea" rows="3" placeholder="Enter message" name="message"/>
                     </Form.Group>
 
                     <Button variant="primary" type="submit">
