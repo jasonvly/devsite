@@ -43,7 +43,7 @@ const entry4 = {
     ]
 };
 
-const Experience = () => {
+const Work = () => {
     return (
         <>
             <Entry {... entry1}/>
@@ -54,4 +54,4 @@ const Experience = () => {
     );
 }
 
-export default Experience;
+export default Work;

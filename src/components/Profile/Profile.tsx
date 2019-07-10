@@ -9,24 +9,26 @@ const Profile = () => {
         <div>
             <Card>
                 <Container>
-                    <Row>
-                        <Col className="d-flex align-items-center">
-                            <Image className="profile-avatar mx-auto" src={Pixelson} roundedCircle fluid />
-                        </Col>
-                    </Row>
-                    <Row>
                     <Card.Body>
-                        <Card.Title className="profile-name"><h4><b>JASON LY</b></h4></Card.Title>
-                        <Card.Text>
-                            Recent UNSW Computer Science and Finance graduate and web developer in Sydney.
-                        </Card.Text>
-                        <hr/>
-                        <ul>
-                            <li><Card.Link href="https://github.com/jasonvly">github</Card.Link></li>
-                            <li><Card.Link href="https://www.linkedin.com/in/jason-v-ly">linkedin</Card.Link></li>
-                        </ul>
+                        <Row>
+                            <Col className="d-flex align-items-center mb-2">
+                                <Image className="profile-avatar mx-auto" src={Pixelson} roundedCircle fluid />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Card.Title className="profile-name"><h3><b>JASON LY</b></h3></Card.Title>
+                                <Card.Text>
+                                    Recent UNSW Computer Science and Finance graduate and web developer in Sydney.
+                                </Card.Text>
+                                <hr/>
+                                <ul>
+                                    <li><Card.Link href="https://github.com/jasonvly">github</Card.Link></li>
+                                    <li><Card.Link href="https://www.linkedin.com/in/jason-v-ly">linkedin</Card.Link></li>
+                                </ul>
+                            </Col>
+                        </Row>
                     </Card.Body>
-                    </Row>
                 </Container>
             </Card>
         </div>

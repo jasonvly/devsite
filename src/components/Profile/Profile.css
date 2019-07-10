@@ -1,7 +1,6 @@
 .profile-avatar {
     display: block;
-    padding-top: 2rem;
-    background-color: aquamarine;
+    background-color: #1b998b;
     background-clip: content-box;
 }
 
