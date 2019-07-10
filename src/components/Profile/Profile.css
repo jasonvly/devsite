@@ -1,10 +1,10 @@
 .profile-avatar {
     display: block;
-    padding-top: 2rem;
+    background-color: #1b998b;
+    background-clip: content-box;
 }
 
 div.profile-name {
     text-align: center;
     text-decoration: underline;
-    width: 100%;
 }

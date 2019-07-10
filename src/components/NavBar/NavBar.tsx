@@ -4,9 +4,6 @@ import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-// import '../../documents/jason-resume.pdf';
-
-// const fileLocation = '../../documents/jason-resume.pdf';
 
 const NavBar = () => {
     return (
@@ -21,19 +18,23 @@ const NavBar = () => {
                     <Nav className="ml-auto" defaultActiveKey="/about">
 
                         <LinkContainer to="/about">
-                                <Nav.Link>About</Nav.Link>
+                                <Nav.Link>ABOUT</Nav.Link>
                         </LinkContainer>
 
-                        <LinkContainer to="/experience">
-                                <Nav.Link>Experience</Nav.Link>
+                        <LinkContainer to="/work">
+                                <Nav.Link>WORK</Nav.Link>
                         </LinkContainer>
         
                         <LinkContainer to="/projects">
-                                <Nav.Link>Projects</Nav.Link>
+                                <Nav.Link>PROJECTS</Nav.Link>
+                        </LinkContainer>
+                        
+                        <LinkContainer to="/contact">
+                                <Nav.Link>CONTACT</Nav.Link>
                         </LinkContainer>
 
                         <Nav.Item>
-                                <Nav.Link href="" download target="_blank">Resume</Nav.Link>
+                                <Nav.Link href={process.env.PUBLIC_URL + '/jason-resume.pdf'} target="_blank">RESUME</Nav.Link>
                         </Nav.Item>
 
                     </Nav>
