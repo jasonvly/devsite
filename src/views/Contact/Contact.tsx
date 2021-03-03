@@ -14,7 +14,7 @@ const Contact = () => {
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" name="email" />
                         <Form.Text className="text-muted">
-                            Don't worry, I have no interest in sharing your email with anyone else.
+                            Don't worry, I'm not interested in sharing your email with anyone.
                         </Form.Text>
                     </Form.Group>
 
@@ -27,7 +27,7 @@ const Contact = () => {
                     {/* Message field */}
                     <Form.Group controlId="formMessage">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" rows="3" placeholder="Enter message" name="message"/>
+                        <Form.Control as="textarea" rows={3} placeholder="Enter message" name="message"/>
                     </Form.Group>
 
                     <Button variant="primary" type="submit">
