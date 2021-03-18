@@ -19,7 +19,8 @@ const Profile = () => {
                             <Col>
                                 <Card.Title className="profile-name"><h3><b>JASON LY</b></h3></Card.Title>
                                 <Card.Text>
-                                    Recent UNSW Computer Science and Finance graduate and web developer in Sydney.
+                                Technologist, strong believer in teamwork and using the right tool for the job. <p></p>
+                                Based in Sydney. 
                                 </Card.Text>
                                 <hr/>
                                 <ul>

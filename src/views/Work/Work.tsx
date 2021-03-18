@@ -32,7 +32,18 @@ const entries = [
         period: "JUNE 2018 - PRESENT",
         description: [
             "Connecting, installing and testing of various IT equipment for businesses including computers, furniture, monitors and keyboards",
-            "Tagging, sorting and cataloguing client equipment ready for relocation of office environments"
+            "Tagging, sorting and cataloguing client equipment ready for relocation of office environments",
+            "Relocated offices and office equipment for various companies throughout greater Sydney, including government and technology companies",
+        ]
+    },
+    {
+        title: "Gaming Attendant" ,
+        company: "Mounties Group",
+        period: "JUNE 2018 - FEBRUARY 2019",
+        description: [
+            "Identified and resolving various technical issues occurring on poker machines.",
+            "Determined causes of technical errors on machines and writing out manual hand payouts when necessary.",
+            "Provided high levels of customer service and routinely assessed safety of environment and patrons whilst adhering to RCA and RCG standards.",
         ]
     },
     {
@@ -64,6 +75,7 @@ const Work = () => {
             <Entry {... entries[2]}/>
             <Entry {... entries[3]}/>
             <Entry {... entries[4]}/>
+            <Entry {... entries[5]}/>
         </>
     );
 }
