@@ -1,7 +1,8 @@
 import React from 'react';
 import { Entry } from '../../components/Entry';
+import { IEntryProps } from '../../components/Entry/Entry';
 
-const entry1 = {
+const entry1: IEntryProps = {
     title: "Club Website",
     company: "Housecats Volleyball Club",
     period: "2019",
@@ -12,7 +13,7 @@ const entry1 = {
     link: "https://www.google.com.au"
 };
 
-const entry2 = {
+const entry2: IEntryProps = {
     title: "Temporal - Group Capstone Project",
     company: "UNSW COMP4920 Ethics and Management",
     period: "2018 SEMESTER 2",
@@ -24,7 +25,7 @@ const entry2 = {
     ]
 };
 
-const entry3 = {
+const entry3: IEntryProps = {
     title: "nginx kitty fuzzer - Major Research Project",
     company: "UNSW COMP9447 Security Engineering Workshop",
     period: "2016 SEMESTER 2",

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Entry } from '../../components/Entry';
+import { IEntryProps } from '../../components/Entry/Entry';
 
-const entries = [
+const entries: IEntryProps[] = [
     {
         title: "Solution Engineer",
         company: "Appian Corporation",

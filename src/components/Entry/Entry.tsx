@@ -18,7 +18,6 @@ const Entry = (props: IEntryProps) => {
     );
 
     return (
-        <div>
             <Row>
                 <Col className="mb-4">
                     <Card>
@@ -32,7 +31,6 @@ const Entry = (props: IEntryProps) => {
                     </Card>
                 </Col>
             </Row>
-        </div>
     );
 }
 
